@@ -1,0 +1,33 @@
+{
+  "name": "@dc-tech/ice-dc-tech",
+  "version": "0.1.0",
+  "description": "ice dc-tech materials",
+  "author": "",
+  "scripts": {
+    "deploy": "npm run generate && npm run sync",
+    "generate": "iceworks generate",
+    "sync": "iceworks sync",
+    "lint": "npm run eslint && npm run stylelint",
+    "eslint": "eslint --cache --ext .js,.jsx ./",
+    "stylelint": "stylelint ./**/*.scss",
+    "prepublishOnly": "npm run generate"
+  },
+  "files": [
+    "build"
+  ],
+  "devDependencies": {
+    "@ice/screenshot": "^0.1.1",
+    "@ice/spec": "^1.0.1",
+    "eslint": "^6.0.1",
+    "stylelint": "^13.1.0"
+  },
+  "materialConfig": {
+    "template": "@icedesign/ice-vue-material-template",
+    "type": "vue",
+    "fusion-site": {
+      "id": 14479,
+      "name": "dc-tech",
+      "url": "https://fusion.design/api/v1/sites/14479/materials"
+    }
+  }
+}

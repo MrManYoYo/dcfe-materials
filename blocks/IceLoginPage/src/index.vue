@@ -1,0 +1,75 @@
+<template>
+  <div class="login-container">
+    <div class="login-bg">
+      <div class="login-wrapper"></div>
+    </div>
+    <login-form class="login-form" />
+  </div>
+</template>
+
+<script>
+import LoginForm from './components/loginForm'
+
+export default {
+  name: 'LoginPage',
+  components: { LoginForm },
+  data() {
+    return {}
+  },
+
+  created() {},
+
+  methods: {}
+}
+
+</script>
+
+<style scoped>
+.login-container {
+  width: 100vw;
+  height: 100vh;
+  min-width: 980px;
+  min-height: 600px;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.login-container::after {
+  content: '版权所有©xxxxxx. 保留一切权利';
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  color: #595959;
+  font-weight: 400;
+}
+.login-wrapper {
+  width: 1050px;
+  height: 100%;
+  margin: 0 auto;
+  background: url('./assets/imgs/login-bg.jpg') no-repeat center center;
+  background-size: cover;
+  position: relative;
+}
+.login-form {
+  margin-top: 150px;
+  width: 380px;
+  min-height: 336px;
+  margin-right: 17.3%;
+  border-radius: 4px;
+  box-shadow: 0px 1px 3px 0px rgba(38, 38, 38, 0.1);
+  background-color: #fff;
+  z-index: 1;
+}
+.login-bg {
+  position: absolute;
+  top: 190px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 288px;
+  background-color: #2b6285;
+}
+</style>

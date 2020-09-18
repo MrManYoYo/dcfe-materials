@@ -1,0 +1,46 @@
+{
+  "template": "@icedesign/ice-vue-material-template",
+  "type": "vue",
+  "fusion-site": {
+    "id": 14479,
+    "name": "dc-tech",
+    "url": "https://fusion.design/api/v1/sites/14479/materials"
+  },
+  "name": "@dc-tech/ice-dc-tech",
+  "description": "ice dc-tech materials",
+  "author": "",
+  "blocks": [
+    {
+      "name": "LoginPage",
+      "title": "login page",
+      "category": "Information",
+      "description": "login page block",
+      "languageType": "js",
+      "homepage": "https://unpkg.com/@dc-tech/login-page@0.1.2/build/index.html",
+      "categories": [
+        "Information"
+      ],
+      "repository": "https://github.com/MrManYoYo/dcfe-b-login-page",
+      "source": {
+        "type": "npm",
+        "npm": "@dc-tech/login-page",
+        "version": "0.1.2",
+        "registry": "https://registry.npmjs.org",
+        "author": "MrManYoYo"
+      },
+      "dependencies": {
+        "dcfe-view-design": "^4.3.2",
+        "vue": "^2.5.16"
+      },
+      "screenshot": "https://unpkg.com/@dc-tech/login-page@0.1.2/screenshot.png",
+      "screenshots": [
+        "https://unpkg.com/@dc-tech/login-page@0.1.2/screenshot.png"
+      ],
+      "publishTime": "2020-09-15T12:12:40.833Z",
+      "updateTime": "2020-09-16T08:04:43.999Z"
+    }
+  ],
+  "components": [],
+  "scaffolds": [],
+  "pages": []
+}
