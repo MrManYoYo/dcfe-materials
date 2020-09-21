@@ -1,33 +1,30 @@
 module.exports = {
   root: true,
-  parserOptions: {
-    parser: 'babel-eslint',
-    sourceType: 'module'
-  },
   env: {
-    browser: true,
-    node: true,
-    es6: true,
+    node: true
   },
-  extends: ['plugin:vue/recommended', 'eslint:recommended'],
-
-  // add your custom rules here
-  //it is base on https://github.com/vuejs/eslint-config-vue
+  extends: [
+    'plugin:vue/essential',
+    '@vue/standard',
+    '@vue/typescript/recommended'
+  ],
+  parserOptions: {
+    ecmaVersion: 2020
+  },
   rules: {
-    "vue/no-parsing-error": [2, {
-      "x-invalid-end-tag": false
+    "vue/max-attributes-per-line": [2, {
+      "singleline": 10,
+      "multiline": {
+        "max": 1,
+        "allowFirstLine": false
+      }
     }],
-    "vue/singleline-html-element-content-newline": 0,
-    "vue/html-closing-bracket-newline": 0,
-    "vue/max-attributes-per-line": 0,
-    "vue/html-self-closing": 0,
     "vue/name-property-casing": ["error", "PascalCase"],
     'accessor-pairs': 2,
     'arrow-spacing': [2, {
       'before': true,
       'after': true
     }],
-    "vue/html-indent": 0,
     'block-spacing': [2, 'always'],
     'brace-style': [2, '1tbs', {
       'allowSingleLine': true
@@ -164,7 +161,7 @@ module.exports = {
       'avoidEscape': true,
       'allowTemplateLiterals': true
     }],
-    'semi': [2, 'never'],
+    'semi': [2, 'never'], // 禁止代码末尾不加分号
     'semi-spacing': [2, {
       'before': false,
       'after': true
@@ -194,6 +191,7 @@ module.exports = {
     'array-bracket-spacing': [2, 'never'],
     "max-len": [1, 150, 2, {
       "ignoreUrls": true
-    }]
+    }],
+    "@typescript-eslint/no-explicit-any": "off"
   }
 }

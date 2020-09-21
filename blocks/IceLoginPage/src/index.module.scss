@@ -1,30 +1,3 @@
-<template>
-  <div class="login-container">
-    <div class="login-bg">
-      <div class="login-wrapper"></div>
-    </div>
-    <login-form class="login-form" />
-  </div>
-</template>
-
-<script>
-import LoginForm from './components/loginForm'
-
-export default {
-  name: 'LoginPage',
-  components: { LoginForm },
-  data() {
-    return {}
-  },
-
-  created() {},
-
-  methods: {}
-}
-
-</script>
-
-<style scoped>
 .login-container {
   width: 100vw;
   height: 100vh;
@@ -72,4 +45,3 @@ export default {
   height: 288px;
   background-color: #2b6285;
 }
-</style>

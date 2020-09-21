@@ -1,8 +1,7 @@
 {
-  "name": "@dc-tech/login-page",
-  "version": "0.1.2",
-  "description": "login page block",
-  "author": "MrManYoYo",
+  "name": "@dc-tech/custom-table",
+  "version": "0.1.0",
+  "description": "custom table",
   "files": [
     "src/",
     "lib/",
@@ -13,13 +12,12 @@
   "keywords": [
     "ice",
     "vue",
-    "loginPage"
+    "block"
   ],
   "scripts": {
     "start": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "screenshot": "screenshot -l mountNode",
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
@@ -69,15 +67,8 @@
     }
   },
   "blockConfig": {
-    "name": "LoginPage",
-    "title": "login page",
-    "category": "Information"
-  },
-  "iceworks": {
-    "type": "vue"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/MrManYoYo/dcfe-b-login-page"
+    "name": "CustomTable",
+    "title": "custom table",
+    "category": "Form"
   }
 }
