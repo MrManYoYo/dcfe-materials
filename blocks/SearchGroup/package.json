@@ -1,7 +1,7 @@
 {
-  "name": "@dc-tech/search-group",
+  "name": "@dc-tech/dc-block-search-group",
   "version": "0.2.0",
-  "description": "search group",
+  "description": "search group component",
   "author": "MrManYoYo",
   "files": [
     "src/",
@@ -74,5 +74,9 @@
   },
   "iceworks": {
     "type": "vue"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MrManYoYo/dcfe-materials"
   }
 }

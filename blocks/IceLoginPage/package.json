@@ -19,7 +19,6 @@
     "start": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "screenshot": "screenshot -l mountNode",
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
@@ -78,6 +77,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MrManYoYo/dcfe-b-login-page"
+    "url": "https://github.com/MrManYoYo/dcfe-materials"
   }
 }

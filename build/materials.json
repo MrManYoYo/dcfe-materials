@@ -1,43 +1,107 @@
 {
   "template": "@icedesign/ice-vue-material-template",
   "type": "vue",
-  "fusion-site": {
-    "id": 14479,
-    "name": "dc-tech",
-    "url": "https://fusion.design/api/v1/sites/14479/materials"
-  },
   "name": "@dc-tech/ice-dc-tech",
   "description": "ice dc-tech materials",
   "author": "",
   "blocks": [
     {
-      "name": "LoginPage",
-      "title": "login page",
-      "category": "Information",
-      "description": "login page block",
-      "languageType": "js",
-      "homepage": "https://unpkg.com/@dc-tech/login-page@0.1.2/build/index.html",
+      "name": "CustomTable",
+      "title": "custom table",
+      "category": "Form",
+      "description": "custom table",
+      "languageType": "ts",
+      "homepage": "https://unpkg.com/@dc-tech/custom-table@0.1.1-0/build/index.html",
       "categories": [
-        "Information"
+        "Form"
       ],
-      "repository": "https://github.com/MrManYoYo/dcfe-b-login-page",
+      "repository": "https://github.com/MrManYoYo/dcfe-materials",
       "source": {
         "type": "npm",
-        "npm": "@dc-tech/login-page",
-        "version": "0.1.2",
+        "npm": "@dc-tech/custom-table",
+        "version": "0.1.1-0",
         "registry": "https://registry.npmjs.org",
         "author": "MrManYoYo"
       },
       "dependencies": {
-        "dcfe-view-design": "^4.3.2",
-        "vue": "^2.5.16"
+        "core-js": "^3.6.5",
+        "vue": "^2.6.11",
+        "vue-class-component": "^7.2.3",
+        "vue-property-decorator": "^8.4.2",
+        "vue-router": "^3.2.0",
+        "vuex": "^3.4.0",
+        "dcfe-view-design": "^4.3.2"
       },
-      "screenshot": "https://unpkg.com/@dc-tech/login-page@0.1.2/screenshot.png",
+      "screenshot": "",
+      "screenshots": "",
+      "publishTime": "2020-09-22T02:57:37.946Z",
+      "updateTime": "2020-09-22T02:57:41.129Z"
+    },
+    {
+      "name": "LoginPage",
+      "title": "login page",
+      "category": "Information",
+      "description": "login page block",
+      "languageType": "ts",
+      "homepage": "https://unpkg.com/@dc-tech/login-page@0.2.0/build/index.html",
+      "categories": [
+        "Information"
+      ],
+      "repository": "https://github.com/MrManYoYo/dcfe-materials",
+      "source": {
+        "type": "npm",
+        "npm": "@dc-tech/login-page",
+        "version": "0.2.0",
+        "registry": "https://registry.npmjs.org",
+        "author": "MrManYoYo"
+      },
+      "dependencies": {
+        "core-js": "^3.6.5",
+        "vue": "^2.6.11",
+        "vue-class-component": "^7.2.3",
+        "vue-property-decorator": "^8.4.2",
+        "vue-router": "^3.2.0",
+        "vuex": "^3.4.0",
+        "dcfe-view-design": "^4.3.2"
+      },
+      "screenshot": "https://unpkg.com/@dc-tech/login-page@0.2.0/screenshot.png",
       "screenshots": [
-        "https://unpkg.com/@dc-tech/login-page@0.1.2/screenshot.png"
+        "https://unpkg.com/@dc-tech/login-page@0.2.0/screenshot.png"
       ],
       "publishTime": "2020-09-15T12:12:40.833Z",
-      "updateTime": "2020-09-16T08:04:43.999Z"
+      "updateTime": "2020-09-22T02:45:48.817Z"
+    },
+    {
+      "name": "SearchGroup",
+      "title": "search group",
+      "category": "form",
+      "description": "search group component",
+      "languageType": "ts",
+      "homepage": "https://unpkg.com/@dc-tech/dc-block-search-group@0.2.0/build/index.html",
+      "categories": [
+        "form"
+      ],
+      "repository": "https://github.com/MrManYoYo/dcfe-materials",
+      "source": {
+        "type": "npm",
+        "npm": "@dc-tech/dc-block-search-group",
+        "version": "0.2.0",
+        "registry": "https://registry.npmjs.org",
+        "author": "MrManYoYo"
+      },
+      "dependencies": {
+        "core-js": "^3.6.5",
+        "vue": "^2.6.11",
+        "vue-class-component": "^7.2.3",
+        "vue-property-decorator": "^8.4.2",
+        "vue-router": "^3.2.0",
+        "vuex": "^3.4.0",
+        "dcfe-view-design": "^4.3.2"
+      },
+      "screenshot": "",
+      "screenshots": "",
+      "publishTime": "2020-09-22T02:54:39.129Z",
+      "updateTime": "2020-09-22T02:54:42.272Z"
     }
   ],
   "components": [],
