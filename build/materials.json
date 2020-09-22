@@ -1,8 +1,6 @@
 {
   "type": "vue",
-  "name": "@dc-tech/dc-tech-ice-materials",
-  "description": "ice dc-tech materials",
-  "author": "MrManYoYo",
+  "name": "@icedesign/dc-tech-ice-materials",
   "blocks": [
     {
       "name": "CustomTable",
