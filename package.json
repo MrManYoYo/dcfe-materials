@@ -1,8 +1,9 @@
 {
-  "name": "@dc-tech/ice-dc-tech",
+  "name": "@dc-tech/dc-tech-ice-materials",
   "version": "0.1.0",
   "description": "ice dc-tech materials",
-  "author": "",
+  "author": "MrManYoYo",
+  "license": "MIT",
   "scripts": {
     "deploy": "npm run generate && npm run sync",
     "generate": "iceworks generate",
@@ -13,7 +14,9 @@
     "prepublishOnly": "npm run generate"
   },
   "files": [
-    "build"
+    "src/",
+    "lib/",
+    "build/"
   ],
   "devDependencies": {
     "@ice/screenshot": "^0.1.1",
@@ -23,11 +26,13 @@
   },
   "materialConfig": {
     "template": "@icedesign/ice-vue-material-template",
-    "type": "vue",
-    "fusion-site": {
-      "id": 14479,
-      "name": "dc-tech",
-      "url": "https://fusion.design/api/v1/sites/14479/materials"
-    }
+    "type": "vue"
+  },
+  "iceworks": {
+    "type": "vue"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MrManYoYo/dcfe-materials"
   }
 }
