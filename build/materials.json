@@ -1,5 +1,5 @@
 {
-  "template": "@icedesign/ice-vue-material-template",
+  "template": "@@dc-tech/ice-vue-material-template",
   "type": "vue",
   "name": "@dc-tech/dc-tech-ice-materials",
   "description": "ice dc-tech materials",
@@ -10,7 +10,7 @@
       "title": "custom table",
       "category": "Form",
       "description": "custom table",
-      "languageType": "ts",
+      "languageType": "js",
       "homepage": "https://unpkg.com/@dc-tech/custom-table@0.1.1-0/build/index.html",
       "categories": [
         "Form"
@@ -42,7 +42,7 @@
       "title": "login page",
       "category": "Information",
       "description": "login page block",
-      "languageType": "ts",
+      "languageType": "js",
       "homepage": "https://unpkg.com/@dc-tech/login-page@0.2.0/build/index.html",
       "categories": [
         "Information"
@@ -76,7 +76,7 @@
       "title": "search group",
       "category": "form",
       "description": "search group component",
-      "languageType": "ts",
+      "languageType": "js",
       "homepage": "https://unpkg.com/@dc-tech/dc-block-search-group@0.2.0/build/index.html",
       "categories": [
         "form"
