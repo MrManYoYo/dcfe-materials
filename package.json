@@ -1,5 +1,5 @@
 {
-  "name": "@icedesign/ice-vue-material-template",
+  "name": "@dc-tech/ice-vue-material-template",
   "version": "0.3.0",
   "description": "ice dc-tech materials",
   "author": "MrManYoYo",
@@ -25,7 +25,7 @@
     "stylelint": "^13.1.0"
   },
   "materialConfig": {
-    "template": "@icedesign/ice-vue-material-template",
+    "template": "@dc-tech/ice-vue-material-template",
     "type": "vue"
   },
   "iceworks": {
