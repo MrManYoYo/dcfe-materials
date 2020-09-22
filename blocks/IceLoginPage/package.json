@@ -1,6 +1,6 @@
 {
   "name": "@dc-tech/login-page",
-  "version": "0.2.0",
+  "version": "0.1.0",
   "description": "login page block",
   "author": "MrManYoYo",
   "files": [
@@ -77,6 +77,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MrManYoYo/dcfe-materials"
+    "url": "https://github.com/MrManYoYo/dc-block-login-page"
   }
 }

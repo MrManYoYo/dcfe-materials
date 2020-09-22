@@ -1,6 +1,6 @@
 {
   "name": "@dc-tech/custom-table",
-  "version": "0.1.1-0",
+  "version": "0.1.0",
   "description": "custom table",
   "author": "MrManYoYo",
   "files": [
@@ -77,6 +77,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MrManYoYo/dcfe-materials"
+    "url": "https://github.com/MrManYoYo/dc-block-custom-table"
   }
 }
