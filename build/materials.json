@@ -1,6 +1,7 @@
 {
+  "template": "@icedesign/ice-vue-material-template",
   "type": "vue",
-  "name": "@icedesign/dc-tech-ice-materials",
+  "name": "@icedesign/ice-vue-material-template",
   "blocks": [
     {
       "name": "CustomTable",
