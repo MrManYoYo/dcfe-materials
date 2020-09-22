@@ -1,5 +1,4 @@
 {
-  "template": "@dc-tech/ice-vue-material-template",
   "type": "vue",
   "name": "@dc-tech/dc-tech-ice-materials",
   "description": "ice dc-tech materials",
