@@ -2,6 +2,7 @@
   "name": "@dc-tech/search-group",
   "version": "0.1.0",
   "description": "search group",
+  "author": "MrManYoYo",
   "files": [
     "src/",
     "lib/",
@@ -12,7 +13,7 @@
   "keywords": [
     "ice",
     "vue",
-    "block"
+    "searchGroup"
   ],
   "scripts": {
     "start": "vue-cli-service serve",
@@ -21,16 +22,35 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "dcfe-view-design": "^4.3.2",
-    "vue": "^2.5.16"
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11",
+    "vue-class-component": "^7.2.3",
+    "vue-property-decorator": "^8.4.2",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0",
+    "dcfe-view-design": "^4.3.2"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.4.0",
-    "@vue/cli-plugin-eslint": "^3.4.0",
-    "@vue/cli-service": "^3.4.0",
+    "@typescript-eslint/eslint-plugin": "^2.33.0",
+    "@typescript-eslint/parser": "^2.33.0",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-typescript": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/eslint-config-standard": "^5.1.2",
+    "@vue/eslint-config-typescript": "^5.0.2",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.2",
+    "typescript": "~3.9.3",
     "babel-eslint": "^10.0.1",
-    "eslint": "^5.8.0",
-    "eslint-plugin-vue": "^5.0.0",
     "vue-template-compiler": "^2.5.21"
   },
   "eslintConfig": {
@@ -50,6 +70,9 @@
   "blockConfig": {
     "name": "SearchGroup",
     "title": "search group",
-    "category": "Form"
+    "category": "form"
+  },
+  "iceworks": {
+    "type": "vue"
   }
 }
