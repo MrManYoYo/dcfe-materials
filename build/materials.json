@@ -1,0 +1,110 @@
+{
+  "template": "@icedesign/ice-vue-material-template",
+  "type": "vue",
+  "name": "@icedesign/ice-vue-material-template",
+  "description": "ice dc-tech materials",
+  "author": "MrManYoYo",
+  "blocks": [
+    {
+      "name": "CustomTable",
+      "title": "custom table",
+      "category": "Form",
+      "description": "custom table",
+      "languageType": "ts",
+      "homepage": "https://unpkg.com/@dc-tech/custom-table@0.1.0/build/index.html",
+      "categories": [
+        "Form"
+      ],
+      "repository": "https://github.com/MrManYoYo/dc-block-custom-table",
+      "source": {
+        "type": "npm",
+        "npm": "@dc-tech/custom-table",
+        "version": "0.1.0",
+        "registry": "https://registry.npmjs.org",
+        "author": "MrManYoYo"
+      },
+      "dependencies": {
+        "core-js": "^3.6.5",
+        "vue": "^2.6.11",
+        "vue-class-component": "^7.2.3",
+        "vue-property-decorator": "^8.4.2",
+        "vue-router": "^3.2.0",
+        "vuex": "^3.4.0",
+        "dcfe-view-design": "^4.3.2"
+      },
+      "screenshot": "",
+      "screenshots": "",
+      "publishTime": "2020-09-22T06:02:20.900Z",
+      "updateTime": "2020-09-22T06:02:24.023Z"
+    },
+    {
+      "name": "LoginPage",
+      "title": "login page",
+      "category": "Information",
+      "description": "login page block",
+      "languageType": "ts",
+      "homepage": "https://unpkg.com/@dc-tech/login-page@0.0.1/build/index.html",
+      "categories": [
+        "Information"
+      ],
+      "repository": "https://github.com/MrManYoYo/dc-block-login-page",
+      "source": {
+        "type": "npm",
+        "npm": "@dc-tech/login-page",
+        "version": "0.0.1",
+        "registry": "https://registry.npmjs.org",
+        "author": "MrManYoYo"
+      },
+      "dependencies": {
+        "core-js": "^3.6.5",
+        "vue": "^2.6.11",
+        "vue-class-component": "^7.2.3",
+        "vue-property-decorator": "^8.4.2",
+        "vue-router": "^3.2.0",
+        "vuex": "^3.4.0",
+        "dcfe-view-design": "^4.3.2"
+      },
+      "screenshot": "https://unpkg.com/@dc-tech/login-page@0.0.1/screenshot.png",
+      "screenshots": [
+        "https://unpkg.com/@dc-tech/login-page@0.0.1/screenshot.png"
+      ],
+      "publishTime": "2020-09-22T06:05:01.569Z",
+      "updateTime": "2020-09-22T06:05:04.863Z"
+    },
+    {
+      "name": "SearchGroup",
+      "title": "search group",
+      "category": "form",
+      "description": "search group component",
+      "languageType": "ts",
+      "homepage": "https://unpkg.com/@dc-tech/dc-block-search-group@0.1.0/build/index.html",
+      "categories": [
+        "form"
+      ],
+      "repository": "https://github.com/MrManYoYo/dc-block-search-group",
+      "source": {
+        "type": "npm",
+        "npm": "@dc-tech/dc-block-search-group",
+        "version": "0.1.0",
+        "registry": "https://registry.npmjs.org",
+        "author": "MrManYoYo"
+      },
+      "dependencies": {
+        "core-js": "^3.6.5",
+        "vue": "^2.6.11",
+        "vue-class-component": "^7.2.3",
+        "vue-property-decorator": "^8.4.2",
+        "vue-router": "^3.2.0",
+        "vuex": "^3.4.0",
+        "dcfe-view-design": "^4.3.2"
+      },
+      "screenshot": "",
+      "screenshots": "",
+      "publishTime": "2020-09-22T06:09:28.217Z",
+      "updateTime": "2020-09-22T06:09:33.064Z"
+    }
+  ],
+  "components": [],
+  "scaffolds": [],
+  "pages": []
+}
