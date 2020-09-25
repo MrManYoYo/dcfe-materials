@@ -11,7 +11,7 @@
       "category": "Form",
       "description": "custom table",
       "languageType": "ts",
-      "homepage": "https://unpkg.com/@dc-tech/custom-table@0.1.1/build/index.html",
+      "homepage": "https://unpkg.com/@dc-tech/custom-table@0.1.2/build/index.html",
       "categories": [
         "Form"
       ],
@@ -19,7 +19,7 @@
       "source": {
         "type": "npm",
         "npm": "@dc-tech/custom-table",
-        "version": "0.1.1",
+        "version": "0.1.2",
         "registry": "https://registry.npmjs.org",
         "author": "MrManYoYo"
       },
@@ -32,12 +32,12 @@
         "vuex": "^3.4.0",
         "dcfe-view-design": "^4.3.2"
       },
-      "screenshot": "https://unpkg.com/@dc-tech/custom-table@0.1.1/screenshot.png",
+      "screenshot": "https://unpkg.com/@dc-tech/custom-table@0.1.2/screenshot.png",
       "screenshots": [
-        "https://unpkg.com/@dc-tech/custom-table@0.1.1/screenshot.png"
+        "https://unpkg.com/@dc-tech/custom-table@0.1.2/screenshot.png"
       ],
       "publishTime": "2020-09-22T06:02:20.900Z",
-      "updateTime": "2020-09-22T07:52:50.254Z"
+      "updateTime": "2020-09-25T07:41:12.722Z"
     },
     {
       "name": "LoginPage",
