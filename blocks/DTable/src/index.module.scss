@@ -1,3 +1,16 @@
 .custom-table-wrapper {
   color: #262626;
+
+  .table-footer-cont{
+    text-align: right;
+
+  }
 }
+
+:global(.ivu-page-options-sizer){
+  line-height: 1;
+}
+:global(.ivu-page-options){
+  line-height: 1;
+}
+
