@@ -16,7 +16,7 @@ export default class BaseForm extends Vue {
     name: '',
     email: '',
     tel: '',
-    sex: '',
+    sex: 'male',
     mark: ''
   }
 
@@ -90,8 +90,8 @@ export default class BaseForm extends Vue {
           </form-item>
           <form-item label='性别' prop='sex'>
             <radio-group vModel={ this.baseForm.sex }>
-              <radio label='男'></radio>
-              <radio label='女'></radio>
+              <radio label='male'>男</radio>
+              <radio label='female'>女</radio>
             </radio-group>
           </form-item>
           <form-item label='邮箱' prop='email'>
