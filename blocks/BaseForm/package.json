@@ -71,5 +71,9 @@
     "name": "BaseForm",
     "title": "base form",
     "category": "Form"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DCFE-Tech/blocks-base-form"
   }
 }

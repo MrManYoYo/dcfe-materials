@@ -71,5 +71,9 @@
     "name": "DataDisplay",
     "title": "data display",
     "category": "Form"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DCFE-Tech/data-display"
   }
 }

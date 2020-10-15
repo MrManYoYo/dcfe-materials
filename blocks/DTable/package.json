@@ -1,7 +1,7 @@
 {
-  "name": "@dc-tech/custom-table",
+  "name": "@dc-tech/normal-table",
   "version": "0.1.0",
-  "description": "custom table",
+  "description": "normal table",
   "author": "MrManYoYo",
   "files": [
     "src/",
@@ -68,11 +68,12 @@
     }
   },
   "blockConfig": {
-    "name": "CustomTable",
-    "title": "custom table",
+    "name": "NormalTable",
+    "title": "normal table",
     "category": "Form"
   },
-  "iceworks": {
-    "type": "vue"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DCFE-Tech/normal-table"
   }
 }

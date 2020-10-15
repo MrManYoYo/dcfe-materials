@@ -1,6 +1,6 @@
 {
   "name": "@dc-tech/tabs-container",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "tabs container",
   "author": "MrManYoYo",
   "files": [
@@ -71,5 +71,9 @@
     "name": "TabsContainer",
     "title": "tabs container",
     "category": "Form"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DCFE-Tech/tabs-container"
   }
 }

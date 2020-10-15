@@ -12,6 +12,9 @@ coverage/
 .tmp/
 
 blocks/**/lib/
+blocks/**/build/
 components/**/lib/
 components/**/es/
+components/**/build/
+pages/**/build/
 screenshot.png

@@ -1,5 +1,4 @@
-# <%= npmName %>
+# Search Group Block
 
-简介：<%= title %>
-
-<%= description %>
+## Overview
+![预览](./screenshot.png)

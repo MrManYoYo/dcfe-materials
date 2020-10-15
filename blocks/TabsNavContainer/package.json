@@ -71,5 +71,9 @@
     "name": "TabsNav",
     "title": "tabs nav",
     "category": "Form"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DCFE-Tech/tabs-nav"
   }
 }

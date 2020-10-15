@@ -1,6 +1,7 @@
 .DS_Store
 node_modules
 dist/
+/build
 
 # local env files
 .env.local
@@ -18,3 +19,7 @@ yarn-error.log*
 *.ntvs*
 *.njsproj
 *.sln
+
+# vue d file
+*/shims-tsx.d.ts
+*/shims-vue.d.ts
