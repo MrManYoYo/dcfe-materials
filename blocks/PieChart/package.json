@@ -1,7 +1,8 @@
 {
-  "name": "@dc-tech/search-group",
+  "name": "@dc-tech/pie-chart",
   "version": "0.1.0",
-  "description": "search group",
+  "description": "pie chart",
+  "author": "MrManYoYo",
   "files": [
     "src/",
     "lib/",
@@ -68,8 +69,8 @@
     }
   },
   "blockConfig": {
-    "name": "SearchGroup",
-    "title": "search group",
+    "name": "PieChart",
+    "title": "pie chart",
     "category": "Form"
   }
 }

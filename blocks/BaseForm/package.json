@@ -1,7 +1,8 @@
 {
-  "name": "@dc-tech/search-group",
+  "name": "@dc-tech/base-form",
   "version": "0.1.0",
-  "description": "search group",
+  "description": "base form",
+  "author": "MrManYoYo",
   "files": [
     "src/",
     "lib/",
@@ -67,8 +68,8 @@
     }
   },
   "blockConfig": {
-    "name": "SearchGroup",
-    "title": "search group",
+    "name": "BaseForm",
+    "title": "base form",
     "category": "Form"
   }
 }

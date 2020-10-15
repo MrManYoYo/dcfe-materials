@@ -1,7 +1,8 @@
 {
-  "name": "@dc-tech/search-group",
+  "name": "@dc-tech/tabs-container",
   "version": "0.1.0",
-  "description": "search group",
+  "description": "tabs container",
+  "author": "MrManYoYo",
   "files": [
     "src/",
     "lib/",
@@ -67,8 +68,8 @@
     }
   },
   "blockConfig": {
-    "name": "SearchGroup",
-    "title": "search group",
+    "name": "TabsContainer",
+    "title": "tabs container",
     "category": "Form"
   }
 }

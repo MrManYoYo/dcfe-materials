@@ -1,7 +1,7 @@
 {
   "name": "@dc-tech/login-page",
-  "version": "0.0.2",
-  "description": "login page block",
+  "version": "0.1.0",
+  "description": "login page",
   "author": "MrManYoYo",
   "files": [
     "src/",
@@ -71,12 +71,5 @@
     "name": "LoginPage",
     "title": "login page",
     "category": "Information"
-  },
-  "iceworks": {
-    "type": "vue"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/MrManYoYo/dc-block-login-page"
   }
 }

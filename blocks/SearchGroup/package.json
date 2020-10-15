@@ -1,7 +1,7 @@
 {
-  "name": "@dc-tech/dc-block-search-group",
-  "version": "0.1.1",
-  "description": "search group component",
+  "name": "@dc-tech/search-group",
+  "version": "0.1.0",
+  "description": "search group",
   "author": "MrManYoYo",
   "files": [
     "src/",
@@ -74,9 +74,5 @@
   },
   "iceworks": {
     "type": "vue"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/MrManYoYo/dc-block-search-group"
   }
 }

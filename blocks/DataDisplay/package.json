@@ -1,7 +1,8 @@
 {
-  "name": "@dc-tech/search-group",
+  "name": "@dc-tech/data-display",
   "version": "0.1.0",
-  "description": "search group",
+  "description": "data display",
+  "author": "MrManYoYo",
   "files": [
     "src/",
     "lib/",
@@ -67,8 +68,8 @@
     }
   },
   "blockConfig": {
-    "name": "SearchGroup",
-    "title": "search group",
+    "name": "DataDisplay",
+    "title": "data display",
     "category": "Form"
   }
 }
