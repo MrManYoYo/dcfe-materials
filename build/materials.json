@@ -211,6 +211,39 @@
       "updateTime": "2020-10-15T03:36:34.137Z"
     },
     {
+      "name": "PieChartWithLegend",
+      "title": "pie chart with legend",
+      "category": "Form",
+      "description": "pie chart with legend",
+      "languageType": "ts",
+      "homepage": "https://unpkg.com/@dc-tech/pie-chart-with-legend@0.1.0/build/index.html",
+      "categories": [
+        "Form"
+      ],
+      "source": {
+        "type": "npm",
+        "npm": "@dc-tech/pie-chart-with-legend",
+        "version": "0.1.0",
+        "registry": "https://registry.npmjs.org"
+      },
+      "dependencies": {
+        "core-js": "^3.6.5",
+        "dcfe-view-design": "^4.3.3",
+        "echarts": "^4.9.0",
+        "vue": "^2.6.11",
+        "vue-class-component": "^7.2.3",
+        "vue-property-decorator": "^8.4.2",
+        "vue-router": "^3.2.0",
+        "vuex": "^3.4.0"
+      },
+      "screenshot": "https://unpkg.com/@dc-tech/pie-chart-with-legend@0.1.0/screenshot.png",
+      "screenshots": [
+        "https://unpkg.com/@dc-tech/pie-chart-with-legend@0.1.0/screenshot.png"
+      ],
+      "publishTime": "2020-10-16T02:02:40.139Z",
+      "updateTime": "2020-10-16T02:02:43.958Z"
+    },
+    {
       "name": "SearchGroup",
       "title": "search group",
       "category": "form",
