@@ -1,0 +1,15 @@
+.search-bar-wrapper {
+  display: flex;
+  justify-content: space-between;
+  color: #262626;
+
+  .search-ipt {
+    width: 320px;
+  }
+  .search-bar-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    line-height: 32px;
+  }
+}
