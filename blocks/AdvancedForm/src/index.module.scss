@@ -1,0 +1,51 @@
+.advanced-form-content {
+  color: #262626;
+
+  .multi-select-box {
+    width: 680px;
+    padding: 16px 8px 16px 16px;
+    border-radius: 4px;
+    background: #F7F7F7;
+
+    .selected-list {
+      padding-bottom: 2px;
+      min-height: 38px;
+      line-height: normal;
+    }
+
+    .select {
+      display: block;
+      width: 200px;
+    }
+
+    .tag-item {
+      margin: 0 8px 8px 0;
+      padding: 0 10px;
+      display: inline-block;
+      vertical-align: top;
+      height: 28px;
+      line-height: 28px;
+      background-color: #dff5ff;
+      border-radius: 4px;
+      color: #1b9aee;
+      &:hover {
+        opacity: 0.85;
+      }
+      .icon-close {
+        margin: 5px -2px 0 2px;
+        display: inline-block;
+        vertical-align: top;
+        font-size: 18px;
+        opacity: 0.66;
+        cursor: pointer;
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  .save-btn{
+    margin-right: 16px;
+  }
+}
