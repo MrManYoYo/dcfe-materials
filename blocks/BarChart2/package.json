@@ -1,7 +1,7 @@
 {
-  "name": "@dc-tech/pie-chart-with-legend",
+  "name": "@dc-tech/multiple-bar-chart",
   "version": "0.1.0",
-  "description": "pie chart with legend",
+  "description": "multiple bar chart",
   "files": [
     "src/",
     "lib/",
@@ -67,8 +67,8 @@
     }
   },
   "blockConfig": {
-    "name": "PieChartWithLegend",
-    "title": "pie chart with legend",
+    "name": "MultipleBarChart",
+    "title": "multiple bar chart",
     "category": "Form"
   }
 }
