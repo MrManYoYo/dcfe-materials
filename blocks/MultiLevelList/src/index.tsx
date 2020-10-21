@@ -14,6 +14,8 @@ export default class MultiList extends Vue {
     form: IndexTSI.VForm;
   }
 
+  private $Modal!: IndexTSI.VModal
+
   private listData: IndexTSI.ListItem[] = [] // 列表数据
 
   private rootId = 0 // 根节点ID

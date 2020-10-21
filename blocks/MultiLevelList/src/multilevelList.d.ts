@@ -16,3 +16,7 @@ export type VForm = Vue & {
   validateField: (params?: any) => boolean
   resetFields: () => void
 }
+
+export type VModal = Vue & {
+  confirm: (params?: any) => void
+}
