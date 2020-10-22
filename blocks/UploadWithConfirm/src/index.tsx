@@ -3,6 +3,9 @@ import style from './index.module.scss'
 @Component
 
 export default class UploadWidtConfirm extends Vue {
+  // 手动控制是否多选模式
+  private multiple = false
+
   private uploadLoading = false
 
   private currUploadFileName = ''
@@ -21,13 +24,18 @@ export default class UploadWidtConfirm extends Vue {
     const files = (this.$refs.hiddenIpt as HTMLInputElement).files
     // files为类数组
     const filesArr = Array.prototype.slice.call(files)
-    // 判断是否重复上传
-    const alreadyFileNames = this.fileList.map(file => file.name)
-    filesArr.forEach((file) => {
-      if (alreadyFileNames.indexOf(file.name) === -1) {
-        this.fileList.push(file)
-      }
-    });
+    // 判断单选 or 多选
+    if (this.multiple) {
+      // 判断是否重复上传
+      const alreadyFileNames = this.fileList.map(file => file.name)
+      filesArr.forEach((file) => {
+        if (alreadyFileNames.indexOf(file.name) === -1) {
+          this.fileList.push(file)
+        }
+      })
+    } else {
+      this.fileList = filesArr
+    }
     // 更新fileList
     // 清空input中的值，防止删除后无法上传相同文件 - 未触发change
     (this.$refs.hiddenIpt as HTMLInputElement).value = ''
@@ -69,7 +77,7 @@ export default class UploadWidtConfirm extends Vue {
             class={ style['upload-file-btn'] }>选择文件</i-button>
         </i-input>
         {/** 隐藏的原生file */}
-        <input type='file' ref='hiddenIpt' multiple
+        <input type='file' ref='hiddenIpt' multiple={ this.multiple }
           onChange={ this.fileChangeHandle } class={ style['hidden-upload-ipt'] } />
         {/** file list 展示区 */}
         <div class={ style['upload-file-preview'] }>
