@@ -1,0 +1,69 @@
+.upload-wrapper {
+  color: #262626;
+  width: 360px;
+
+  .upload-file-input{
+    cursor: pointer;
+    :global(.ivu-input){
+      cursor: pointer;
+    }
+  }
+
+  .upload-file-cont{
+    width: 400px;
+    position: relative;
+  }
+
+  .hidden-upload-ipt{
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    z-index: -1;
+  }
+
+  .upload-file-preview{
+    margin: 8px 0;
+    overflow: hidden;
+
+    .upload-file-preview-item{
+      position: relative;
+      height: 28px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 4px;
+      border-radius: 3px;
+      overflow: hidden;
+      transition: background-color .2s ease-in-out;
+
+      &:hover{
+        background-color: #f3f3f3;
+
+        .preview-item-delete{
+          opacity: 1;
+        }
+      }
+
+      .preview-item-name{
+        flex: 1;
+        display: inline-block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        color: #515a6e;
+      }
+      
+      .preview-item-icon, .preview-item-delete{
+        font-size: 16px;
+      }
+      .preview-item-icon{
+        margin-right: 4px;
+      }
+      .preview-item-delete{
+        opacity: 0;
+        cursor: pointer;
+        transition: opacity .2s ease-in-out;
+      }
+    }
+  }
+}
