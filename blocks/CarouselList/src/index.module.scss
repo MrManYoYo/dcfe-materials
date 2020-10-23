@@ -1,0 +1,29 @@
+$list-item-height:    36px;
+
+.carousel-list-wrapper {
+  color: #262626;
+  border: 1px solid #f0f0f0;
+
+  .carousel-list-body{
+    overflow: hidden;
+
+    .carousel-list{
+      transform: translateZ(0);
+
+      .carousel-list-item{
+        height: $list-item-height;
+        line-height: $list-item-height;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: background-color .3s ease-in-out;
+        border-bottom: 1px solid #f0f0f0;
+
+        &:hover{
+          background-color: #f0f0f0;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
