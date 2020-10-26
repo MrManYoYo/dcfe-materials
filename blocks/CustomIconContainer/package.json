@@ -2,6 +2,7 @@
   "name": "@dc-tech/custom-icon-container",
   "version": "0.1.0",
   "description": "custom icon container",
+  "author": "Yugo",
   "files": [
     "src/",
     "lib/",

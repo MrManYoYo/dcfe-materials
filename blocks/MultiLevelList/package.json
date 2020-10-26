@@ -2,6 +2,7 @@
   "name": "@dc-tech/multilevel-list",
   "version": "0.1.0",
   "description": "multilevel list",
+  "author": "Yugo",
   "files": [
     "src/",
     "lib/",
