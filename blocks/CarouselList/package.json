@@ -1,7 +1,7 @@
 {
-  "name": "@dc-tech/template-project",
+  "name": "@dc-tech/carousel-list",
   "version": "0.1.0",
-  "description": "template project",
+  "description": "carousel list",
   "files": [
     "src/",
     "lib/",
@@ -67,8 +67,8 @@
     }
   },
   "blockConfig": {
-    "name": "TemplateProject",
-    "title": "template project",
+    "name": "CarouselList",
+    "title": "carousel list",
     "category": "Form"
   }
 }

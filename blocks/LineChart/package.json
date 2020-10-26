@@ -1,7 +1,7 @@
 {
-  "name": "@dc-tech/template-project",
+  "name": "@dc-tech/block-line-chart",
   "version": "0.1.0",
-  "description": "template project",
+  "description": "normal line chart",
   "files": [
     "src/",
     "lib/",
@@ -67,8 +67,8 @@
     }
   },
   "blockConfig": {
-    "name": "TemplateProject",
-    "title": "template project",
+    "name": "LineChart",
+    "title": "base line chart",
     "category": "Form"
   }
 }
