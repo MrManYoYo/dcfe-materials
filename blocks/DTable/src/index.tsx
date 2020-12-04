@@ -1,5 +1,5 @@
 import { Vue, Component } from 'vue-property-decorator'
-import { Message } from 'dcfe-view-design'
+import { Message } from 'view-design'
 import { CreateElement } from 'vue/types/umd'
 import style from './index.module.scss'
 interface TableParams {
