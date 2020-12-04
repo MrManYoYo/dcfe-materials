@@ -1,6 +1,6 @@
 {
   "name": "@dc-tech/upload-with-confirm",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "upload with confirm",
   "files": [
     "src/",

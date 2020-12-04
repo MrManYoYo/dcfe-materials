@@ -1,6 +1,6 @@
 {
   "name": "@dc-tech/block-bar-chart",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "single bar chart",
   "files": [
     "src/",
