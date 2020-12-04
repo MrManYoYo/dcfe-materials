@@ -11,32 +11,29 @@
       "category": "Form",
       "description": "advanced form",
       "languageType": "ts",
-      "homepage": "https://unpkg.com/@dc-tech/advanced-form@0.1.1/build/index.html",
+      "homepage": "https://unpkg.com/@dc-tech/advanced-form@0.2.0/build/index.html",
       "categories": [
         "Form"
       ],
       "source": {
         "type": "npm",
         "npm": "@dc-tech/advanced-form",
-        "version": "0.1.1",
+        "version": "0.2.0",
         "registry": "https://registry.npmjs.org",
         "author": "Yugo"
       },
       "dependencies": {
-        "core-js": "^3.6.5",
-        "dcfe-view-design": "^4.3.3",
-        "vue": "^2.6.11",
-        "vue-class-component": "^7.2.3",
-        "vue-property-decorator": "^8.4.2",
-        "vue-router": "^3.2.0",
-        "vuex": "^3.4.0"
+        "vue": "^2.6.10",
+        "vue-router": "^3.0.3",
+        "vuex": "^3.0.1",
+        "view-design": "^4.0.2"
       },
-      "screenshot": "https://unpkg.com/@dc-tech/advanced-form@0.1.1/screenshot.png",
+      "screenshot": "https://unpkg.com/@dc-tech/advanced-form@0.2.0/screenshot.png",
       "screenshots": [
-        "https://unpkg.com/@dc-tech/advanced-form@0.1.1/screenshot.png"
+        "https://unpkg.com/@dc-tech/advanced-form@0.2.0/screenshot.png"
       ],
       "publishTime": "2020-10-26T03:20:45.748Z",
-      "updateTime": "2020-10-26T03:20:48.823Z"
+      "updateTime": "2020-12-04T07:06:46.967Z"
     },
     {
       "name": "SingleBarChart",
@@ -44,29 +41,26 @@
       "category": "Form",
       "description": "single bar chart",
       "languageType": "ts",
-      "homepage": "https://unpkg.com/@dc-tech/block-bar-chart@0.1.0/build/index.html",
+      "homepage": "https://unpkg.com/@dc-tech/block-bar-chart@0.2.0/build/index.html",
       "categories": [
         "Form"
       ],
       "source": {
         "type": "npm",
         "npm": "@dc-tech/block-bar-chart",
-        "version": "0.1.0",
+        "version": "0.2.0",
         "registry": "https://registry.npmjs.org"
       },
       "dependencies": {
-        "core-js": "^3.6.5",
         "echarts": "^4.9.0",
-        "vue": "^2.6.11",
-        "vue-class-component": "^7.2.3",
-        "vue-property-decorator": "^8.4.2",
-        "vue-router": "^3.2.0",
-        "vuex": "^3.4.0"
+        "vue": "^2.6.10",
+        "vue-router": "^3.0.3",
+        "vuex": "^3.0.1"
       },
       "screenshot": "",
       "screenshots": "",
       "publishTime": "2020-10-26T03:02:33.736Z",
-      "updateTime": "2020-10-26T03:20:13.673Z"
+      "updateTime": "2020-12-04T06:06:18.018Z"
     },
     {
       "name": "MultipleBarChart",
@@ -74,29 +68,26 @@
       "category": "Form",
       "description": "multiple bar chart",
       "languageType": "ts",
-      "homepage": "https://unpkg.com/@dc-tech/block-multiple-bar-chart@0.1.0/build/index.html",
+      "homepage": "https://unpkg.com/@dc-tech/block-multiple-bar-chart@0.2.0/build/index.html",
       "categories": [
         "Form"
       ],
       "source": {
         "type": "npm",
         "npm": "@dc-tech/block-multiple-bar-chart",
-        "version": "0.1.0",
+        "version": "0.2.0",
         "registry": "https://registry.npmjs.org"
       },
       "dependencies": {
-        "core-js": "^3.6.5",
         "echarts": "^4.9.0",
-        "vue": "^2.6.11",
-        "vue-class-component": "^7.2.3",
-        "vue-property-decorator": "^8.4.2",
-        "vue-router": "^3.2.0",
-        "vuex": "^3.4.0"
+        "vue": "^2.6.10",
+        "vue-router": "^3.0.3",
+        "vuex": "^3.0.1"
       },
       "screenshot": "",
       "screenshots": "",
       "publishTime": "2020-10-26T03:03:32.461Z",
-      "updateTime": "2020-10-26T03:20:16.115Z"
+      "updateTime": "2020-12-04T06:19:00.113Z"
     },
     {
       "name": "BaseForm",
@@ -104,7 +95,7 @@
       "category": "Form",
       "description": "base form",
       "languageType": "ts",
-      "homepage": "https://unpkg.com/@dc-tech/base-form@0.1.2/build/index.html",
+      "homepage": "https://unpkg.com/@dc-tech/base-form@0.2.0/build/index.html",
       "categories": [
         "Form"
       ],
@@ -112,25 +103,22 @@
       "source": {
         "type": "npm",
         "npm": "@dc-tech/base-form",
-        "version": "0.1.2",
+        "version": "0.2.0",
         "registry": "https://registry.npmjs.org",
         "author": "MrManYoYo"
       },
       "dependencies": {
-        "core-js": "^3.6.5",
-        "vue": "^2.6.11",
-        "vue-class-component": "^7.2.3",
-        "vue-property-decorator": "^8.4.2",
-        "vue-router": "^3.2.0",
-        "vuex": "^3.4.0",
-        "dcfe-view-design": "^4.3.2"
+        "vue": "^2.6.10",
+        "vue-router": "^3.0.3",
+        "vuex": "^3.0.1",
+        "view-design": "^4.0.2"
       },
-      "screenshot": "https://unpkg.com/@dc-tech/base-form@0.1.2/screenshot.png",
+      "screenshot": "https://unpkg.com/@dc-tech/base-form@0.2.0/screenshot.png",
       "screenshots": [
-        "https://unpkg.com/@dc-tech/base-form@0.1.2/screenshot.png"
+        "https://unpkg.com/@dc-tech/base-form@0.2.0/screenshot.png"
       ],
       "publishTime": "2020-10-15T03:08:04.724Z",
-      "updateTime": "2020-10-26T03:20:12.286Z"
+      "updateTime": "2020-12-04T06:17:44.705Z"
     },
     {
       "name": "CarouselList",
@@ -138,31 +126,28 @@
       "category": "Form",
       "description": "carousel list",
       "languageType": "ts",
-      "homepage": "https://unpkg.com/@dc-tech/carousel-list@0.1.0/build/index.html",
+      "homepage": "https://unpkg.com/@dc-tech/carousel-list@0.2.0/build/index.html",
       "categories": [
         "Form"
       ],
       "source": {
         "type": "npm",
         "npm": "@dc-tech/carousel-list",
-        "version": "0.1.0",
+        "version": "0.2.0",
         "registry": "https://registry.npmjs.org"
       },
       "dependencies": {
-        "core-js": "^3.6.5",
-        "dcfe-view-design": "^4.3.3",
-        "vue": "^2.6.11",
-        "vue-class-component": "^7.2.3",
-        "vue-property-decorator": "^8.4.2",
-        "vue-router": "^3.2.0",
-        "vuex": "^3.4.0"
+        "vue": "^2.6.10",
+        "vue-router": "^3.0.3",
+        "vuex": "^3.0.1",
+        "view-design": "^4.0.2"
       },
-      "screenshot": "https://unpkg.com/@dc-tech/carousel-list@0.1.0/screenshot.png",
+      "screenshot": "https://unpkg.com/@dc-tech/carousel-list@0.2.0/screenshot.png",
       "screenshots": [
-        "https://unpkg.com/@dc-tech/carousel-list@0.1.0/screenshot.png"
+        "https://unpkg.com/@dc-tech/carousel-list@0.2.0/screenshot.png"
       ],
       "publishTime": "2020-10-26T02:56:34.631Z",
-      "updateTime": "2020-10-26T03:20:17.326Z"
+      "updateTime": "2020-12-04T06:20:54.349Z"
     },
     {
       "name": "CustomIconContainer",
@@ -170,32 +155,29 @@
       "category": "Form",
       "description": "custom icon container",
       "languageType": "ts",
-      "homepage": "https://unpkg.com/@dc-tech/custom-icon-container@0.1.0/build/index.html",
+      "homepage": "https://unpkg.com/@dc-tech/custom-icon-container@0.2.0/build/index.html",
       "categories": [
         "Form"
       ],
       "source": {
         "type": "npm",
         "npm": "@dc-tech/custom-icon-container",
-        "version": "0.1.0",
+        "version": "0.2.0",
         "registry": "https://registry.npmjs.org",
         "author": "Yugo"
       },
       "dependencies": {
-        "core-js": "^3.6.5",
-        "dcfe-view-design": "^4.3.3",
-        "vue": "^2.6.11",
-        "vue-class-component": "^7.2.3",
-        "vue-property-decorator": "^8.4.2",
-        "vue-router": "^3.2.0",
-        "vuex": "^3.4.0"
+        "vue": "^2.6.10",
+        "vue-router": "^3.0.3",
+        "vuex": "^3.0.1",
+        "view-design": "^4.0.2"
       },
-      "screenshot": "https://unpkg.com/@dc-tech/custom-icon-container@0.1.0/screenshot.png",
+      "screenshot": "https://unpkg.com/@dc-tech/custom-icon-container@0.2.0/screenshot.png",
       "screenshots": [
-        "https://unpkg.com/@dc-tech/custom-icon-container@0.1.0/screenshot.png"
+        "https://unpkg.com/@dc-tech/custom-icon-container@0.2.0/screenshot.png"
       ],
       "publishTime": "2020-10-26T03:28:47.626Z",
-      "updateTime": "2020-10-26T03:28:50.550Z"
+      "updateTime": "2020-12-04T07:26:22.428Z"
     },
     {
       "name": "DataDisplay",
@@ -203,7 +185,7 @@
       "category": "Form",
       "description": "data display",
       "languageType": "ts",
-      "homepage": "https://unpkg.com/@dc-tech/data-display@0.1.0/build/index.html",
+      "homepage": "https://unpkg.com/@dc-tech/data-display@0.2.0/build/index.html",
       "categories": [
         "Form"
       ],
@@ -211,25 +193,22 @@
       "source": {
         "type": "npm",
         "npm": "@dc-tech/data-display",
-        "version": "0.1.0",
+        "version": "0.2.0",
         "registry": "https://registry.npmjs.org",
         "author": "MrManYoYo"
       },
       "dependencies": {
-        "core-js": "^3.6.5",
-        "vue": "^2.6.11",
-        "vue-class-component": "^7.2.3",
-        "vue-property-decorator": "^8.4.2",
-        "vue-router": "^3.2.0",
-        "vuex": "^3.4.0",
-        "dcfe-view-design": "^4.3.2"
+        "vue": "^2.6.10",
+        "vue-router": "^3.0.3",
+        "vuex": "^3.0.1",
+        "view-design": "^4.0.2"
       },
-      "screenshot": "https://unpkg.com/@dc-tech/data-display@0.1.0/screenshot.png",
+      "screenshot": "https://unpkg.com/@dc-tech/data-display@0.2.0/screenshot.png",
       "screenshots": [
-        "https://unpkg.com/@dc-tech/data-display@0.1.0/screenshot.png"
+        "https://unpkg.com/@dc-tech/data-display@0.2.0/screenshot.png"
       ],
       "publishTime": "2020-10-15T03:20:17.278Z",
-      "updateTime": "2020-10-26T03:20:19.894Z"
+      "updateTime": "2020-12-04T06:22:42.509Z"
     },
     {
       "name": "NormalTable",
@@ -237,7 +216,7 @@
       "category": "Form",
       "description": "normal table",
       "languageType": "ts",
-      "homepage": "https://unpkg.com/@dc-tech/normal-table@0.1.1/build/index.html",
+      "homepage": "https://unpkg.com/@dc-tech/normal-table@0.2.0/build/index.html",
       "categories": [
         "Form"
       ],
@@ -245,25 +224,22 @@
       "source": {
         "type": "npm",
         "npm": "@dc-tech/normal-table",
-        "version": "0.1.1",
+        "version": "0.2.0",
         "registry": "https://registry.npmjs.org",
         "author": "MrManYoYo"
       },
       "dependencies": {
-        "core-js": "^3.6.5",
-        "vue": "^2.6.11",
-        "vue-class-component": "^7.2.3",
-        "vue-property-decorator": "^8.4.2",
-        "vue-router": "^3.2.0",
-        "vuex": "^3.4.0",
-        "dcfe-view-design": "^4.3.2"
+        "vue": "^2.6.10",
+        "vue-router": "^3.0.3",
+        "vuex": "^3.0.1",
+        "view-design": "^4.0.2"
       },
-      "screenshot": "https://unpkg.com/@dc-tech/normal-table@0.1.1/screenshot.png",
+      "screenshot": "https://unpkg.com/@dc-tech/normal-table@0.2.0/screenshot.png",
       "screenshots": [
-        "https://unpkg.com/@dc-tech/normal-table@0.1.1/screenshot.png"
+        "https://unpkg.com/@dc-tech/normal-table@0.2.0/screenshot.png"
       ],
       "publishTime": "2020-10-15T03:27:12.295Z",
-      "updateTime": "2020-10-26T03:20:23.631Z"
+      "updateTime": "2020-12-04T06:26:55.512Z"
     },
     {
       "name": "TableWithExpand",
@@ -271,7 +247,7 @@
       "category": "Form",
       "description": "table with expand",
       "languageType": "ts",
-      "homepage": "https://unpkg.com/@dc-tech/table-with-expand@0.1.0/build/index.html",
+      "homepage": "https://unpkg.com/@dc-tech/table-with-expand@0.2.0/build/index.html",
       "categories": [
         "Form"
       ],
@@ -279,25 +255,22 @@
       "source": {
         "type": "npm",
         "npm": "@dc-tech/table-with-expand",
-        "version": "0.1.0",
+        "version": "0.2.0",
         "registry": "https://registry.npmjs.org",
         "author": "MrManYoYo"
       },
       "dependencies": {
-        "core-js": "^3.6.5",
-        "dcfe-view-design": "^4.3.3",
-        "vue": "^2.6.11",
-        "vue-class-component": "^7.2.3",
-        "vue-property-decorator": "^8.4.2",
-        "vue-router": "^3.2.0",
-        "vuex": "^3.4.0"
+        "vue": "^2.6.10",
+        "vue-router": "^3.0.3",
+        "vuex": "^3.0.1",
+        "view-design": "^4.0.2"
       },
-      "screenshot": "https://unpkg.com/@dc-tech/table-with-expand@0.1.0/screenshot.png",
+      "screenshot": "https://unpkg.com/@dc-tech/table-with-expand@0.2.0/screenshot.png",
       "screenshots": [
-        "https://unpkg.com/@dc-tech/table-with-expand@0.1.0/screenshot.png"
+        "https://unpkg.com/@dc-tech/table-with-expand@0.2.0/screenshot.png"
       ],
       "publishTime": "2020-10-15T03:29:57.967Z",
-      "updateTime": "2020-10-26T03:20:22.126Z"
+      "updateTime": "2020-12-04T06:49:03.754Z"
     },
     {
       "name": "LoginPage",
@@ -305,7 +278,7 @@
       "category": "Information",
       "description": "login page",
       "languageType": "ts",
-      "homepage": "https://unpkg.com/@dc-tech/login-page@0.1.0/build/index.html",
+      "homepage": "https://unpkg.com/@dc-tech/login-page@0.2.0/build/index.html",
       "categories": [
         "Information"
       ],
@@ -313,25 +286,22 @@
       "source": {
         "type": "npm",
         "npm": "@dc-tech/login-page",
-        "version": "0.1.0",
+        "version": "0.2.0",
         "registry": "https://registry.npmjs.org",
         "author": "MrManYoYo"
       },
       "dependencies": {
-        "core-js": "^3.6.5",
-        "vue": "^2.6.11",
-        "vue-class-component": "^7.2.3",
-        "vue-property-decorator": "^8.4.2",
-        "vue-router": "^3.2.0",
-        "vuex": "^3.4.0",
-        "dcfe-view-design": "^4.3.2"
+        "vue": "^2.6.10",
+        "vue-router": "^3.0.3",
+        "vuex": "^3.0.1",
+        "view-design": "^4.0.2"
       },
-      "screenshot": "https://unpkg.com/@dc-tech/login-page@0.1.0/screenshot.png",
+      "screenshot": "https://unpkg.com/@dc-tech/login-page@0.2.0/screenshot.png",
       "screenshots": [
-        "https://unpkg.com/@dc-tech/login-page@0.1.0/screenshot.png"
+        "https://unpkg.com/@dc-tech/login-page@0.2.0/screenshot.png"
       ],
       "publishTime": "2020-10-15T03:33:57.265Z",
-      "updateTime": "2020-10-26T03:20:22.419Z"
+      "updateTime": "2020-12-04T06:32:55.449Z"
     },
     {
       "name": "LineChart",
@@ -339,31 +309,58 @@
       "category": "Form",
       "description": "normal line chart",
       "languageType": "ts",
-      "homepage": "https://unpkg.com/@dc-tech/block-line-chart@0.1.0/build/index.html",
+      "homepage": "https://unpkg.com/@dc-tech/block-line-chart@0.2.0/build/index.html",
       "categories": [
         "Form"
       ],
       "source": {
         "type": "npm",
         "npm": "@dc-tech/block-line-chart",
-        "version": "0.1.0",
+        "version": "0.2.0",
         "registry": "https://registry.npmjs.org"
       },
       "dependencies": {
-        "core-js": "^3.6.5",
         "echarts": "^4.9.0",
-        "vue": "^2.6.11",
-        "vue-class-component": "^7.2.3",
-        "vue-property-decorator": "^8.4.2",
-        "vue-router": "^3.2.0",
-        "vuex": "^3.4.0"
+        "vue": "^2.6.10",
+        "vue-router": "^3.0.3",
+        "vuex": "^3.0.1"
       },
-      "screenshot": "https://unpkg.com/@dc-tech/block-line-chart@0.1.0/screenshot.png",
+      "screenshot": "https://unpkg.com/@dc-tech/block-line-chart@0.2.0/screenshot.png",
       "screenshots": [
-        "https://unpkg.com/@dc-tech/block-line-chart@0.1.0/screenshot.png"
+        "https://unpkg.com/@dc-tech/block-line-chart@0.2.0/screenshot.png"
       ],
       "publishTime": "2020-10-26T02:58:27.693Z",
-      "updateTime": "2020-10-26T03:20:14.891Z"
+      "updateTime": "2020-12-04T06:36:19.369Z"
+    },
+    {
+      "name": "ListFilter",
+      "title": "list filter",
+      "category": "List",
+      "description": "list filter",
+      "languageType": "ts",
+      "homepage": "https://unpkg.com/@dc-tech/list-filter@0.2.0/build/index.html",
+      "categories": [
+        "List"
+      ],
+      "source": {
+        "type": "npm",
+        "npm": "@dc-tech/list-filter",
+        "version": "0.2.0",
+        "registry": "https://registry.npmjs.org",
+        "author": "Yugo"
+      },
+      "dependencies": {
+        "vue": "^2.6.10",
+        "vue-router": "^3.0.3",
+        "vuex": "^3.0.1",
+        "view-design": "^4.0.2"
+      },
+      "screenshot": "https://unpkg.com/@dc-tech/list-filter@0.2.0/screenshot.png",
+      "screenshots": [
+        "https://unpkg.com/@dc-tech/list-filter@0.2.0/screenshot.png"
+      ],
+      "publishTime": "2020-10-26T06:41:47.937Z",
+      "updateTime": "2020-12-04T07:30:00.206Z"
     },
     {
       "name": "MultilevelList",
@@ -371,32 +368,29 @@
       "category": "List",
       "description": "multilevel list",
       "languageType": "ts",
-      "homepage": "https://unpkg.com/@dc-tech/multilevel-list@0.1.0/build/index.html",
+      "homepage": "https://unpkg.com/@dc-tech/multilevel-list@0.2.0/build/index.html",
       "categories": [
         "List"
       ],
       "source": {
         "type": "npm",
         "npm": "@dc-tech/multilevel-list",
-        "version": "0.1.0",
+        "version": "0.2.0",
         "registry": "https://registry.npmjs.org",
         "author": "Yugo"
       },
       "dependencies": {
-        "core-js": "^3.6.5",
-        "dcfe-view-design": "^4.3.3",
-        "vue": "^2.6.11",
-        "vue-class-component": "^7.2.3",
-        "vue-property-decorator": "^8.4.2",
-        "vue-router": "^3.2.0",
-        "vuex": "^3.4.0"
+        "vue": "^2.6.10",
+        "vue-router": "^3.0.3",
+        "vuex": "^3.0.1",
+        "view-design": "^4.0.2"
       },
-      "screenshot": "https://unpkg.com/@dc-tech/multilevel-list@0.1.0/screenshot.png",
+      "screenshot": "https://unpkg.com/@dc-tech/multilevel-list@0.2.0/screenshot.png",
       "screenshots": [
-        "https://unpkg.com/@dc-tech/multilevel-list@0.1.0/screenshot.png"
+        "https://unpkg.com/@dc-tech/multilevel-list@0.2.0/screenshot.png"
       ],
       "publishTime": "2020-10-26T03:23:44.208Z",
-      "updateTime": "2020-10-26T03:23:48.451Z"
+      "updateTime": "2020-12-04T07:25:54.131Z"
     },
     {
       "name": "PieChart",
@@ -404,7 +398,7 @@
       "category": "Form",
       "description": "pie chart",
       "languageType": "ts",
-      "homepage": "https://unpkg.com/@dc-tech/pie-chart@0.1.0/build/index.html",
+      "homepage": "https://unpkg.com/@dc-tech/pie-chart@0.2.0/build/index.html",
       "categories": [
         "Form"
       ],
@@ -412,26 +406,22 @@
       "source": {
         "type": "npm",
         "npm": "@dc-tech/pie-chart",
-        "version": "0.1.0",
+        "version": "0.2.0",
         "registry": "https://registry.npmjs.org",
         "author": "MrManYoYo"
       },
       "dependencies": {
-        "core-js": "^3.6.5",
-        "dcfe-view-design": "^4.3.3",
         "echarts": "^4.9.0",
-        "vue": "^2.6.11",
-        "vue-class-component": "^7.2.3",
-        "vue-property-decorator": "^8.4.2",
-        "vue-router": "^3.2.0",
-        "vuex": "^3.4.0"
+        "vue": "^2.6.10",
+        "vue-router": "^3.0.3",
+        "vuex": "^3.0.1"
       },
-      "screenshot": "https://unpkg.com/@dc-tech/pie-chart@0.1.0/screenshot.png",
+      "screenshot": "https://unpkg.com/@dc-tech/pie-chart@0.2.0/screenshot.png",
       "screenshots": [
-        "https://unpkg.com/@dc-tech/pie-chart@0.1.0/screenshot.png"
+        "https://unpkg.com/@dc-tech/pie-chart@0.2.0/screenshot.png"
       ],
       "publishTime": "2020-10-15T03:36:31.005Z",
-      "updateTime": "2020-10-26T03:20:18.536Z"
+      "updateTime": "2020-12-04T06:38:24.065Z"
     },
     {
       "name": "PieChartWithLegend",
@@ -439,31 +429,28 @@
       "category": "Form",
       "description": "pie chart with legend",
       "languageType": "ts",
-      "homepage": "https://unpkg.com/@dc-tech/pie-chart-with-legend@0.1.0/build/index.html",
+      "homepage": "https://unpkg.com/@dc-tech/pie-chart-with-legend@0.2.0/build/index.html",
       "categories": [
         "Form"
       ],
       "source": {
         "type": "npm",
         "npm": "@dc-tech/pie-chart-with-legend",
-        "version": "0.1.0",
+        "version": "0.2.0",
         "registry": "https://registry.npmjs.org"
       },
       "dependencies": {
-        "core-js": "^3.6.5",
         "echarts": "^4.9.0",
-        "vue": "^2.6.11",
-        "vue-class-component": "^7.2.3",
-        "vue-property-decorator": "^8.4.2",
-        "vue-router": "^3.2.0",
-        "vuex": "^3.4.0"
+        "vue": "^2.6.10",
+        "vue-router": "^3.0.3",
+        "vuex": "^3.0.1"
       },
-      "screenshot": "https://unpkg.com/@dc-tech/pie-chart-with-legend@0.1.0/screenshot.png",
+      "screenshot": "https://unpkg.com/@dc-tech/pie-chart-with-legend@0.2.0/screenshot.png",
       "screenshots": [
-        "https://unpkg.com/@dc-tech/pie-chart-with-legend@0.1.0/screenshot.png"
+        "https://unpkg.com/@dc-tech/pie-chart-with-legend@0.2.0/screenshot.png"
       ],
       "publishTime": "2020-10-16T02:02:40.139Z",
-      "updateTime": "2020-10-26T03:20:19.892Z"
+      "updateTime": "2020-12-04T06:39:52.913Z"
     },
     {
       "name": "SearchBar",
@@ -471,32 +458,29 @@
       "category": "Form",
       "description": "search bar",
       "languageType": "ts",
-      "homepage": "https://unpkg.com/@dc-tech/search-bar@0.1.0/build/index.html",
+      "homepage": "https://unpkg.com/@dc-tech/search-bar@0.2.0/build/index.html",
       "categories": [
         "Form"
       ],
       "source": {
         "type": "npm",
         "npm": "@dc-tech/search-bar",
-        "version": "0.1.0",
+        "version": "0.2.0",
         "registry": "https://registry.npmjs.org",
         "author": "Yugo"
       },
       "dependencies": {
-        "core-js": "^3.6.5",
-        "dcfe-view-design": "^4.3.3",
-        "vue": "^2.6.11",
-        "vue-class-component": "^7.2.3",
-        "vue-property-decorator": "^8.4.2",
-        "vue-router": "^3.2.0",
-        "vuex": "^3.4.0"
+        "vue": "^2.6.10",
+        "vue-router": "^3.0.3",
+        "vuex": "^3.0.1",
+        "view-design": "^4.0.2"
       },
-      "screenshot": "https://unpkg.com/@dc-tech/search-bar@0.1.0/screenshot.png",
+      "screenshot": "https://unpkg.com/@dc-tech/search-bar@0.2.0/screenshot.png",
       "screenshots": [
-        "https://unpkg.com/@dc-tech/search-bar@0.1.0/screenshot.png"
+        "https://unpkg.com/@dc-tech/search-bar@0.2.0/screenshot.png"
       ],
       "publishTime": "2020-10-26T03:26:04.442Z",
-      "updateTime": "2020-10-26T03:26:07.464Z"
+      "updateTime": "2020-12-04T07:22:35.402Z"
     },
     {
       "name": "SearchGroup",
@@ -517,13 +501,10 @@
         "author": "MrManYoYo"
       },
       "dependencies": {
-        "core-js": "^3.6.5",
-        "vue": "^2.6.11",
-        "vue-class-component": "^7.2.3",
-        "vue-property-decorator": "^8.4.2",
-        "vue-router": "^3.2.0",
-        "vuex": "^3.4.0",
-        "dcfe-view-design": "^4.3.2"
+        "vue": "^2.6.10",
+        "vue-router": "^3.0.3",
+        "vuex": "^3.0.1",
+        "view-design": "^4.0.2"
       },
       "screenshot": "https://unpkg.com/@dc-tech/search-group@0.1.1/screenshot.png",
       "screenshots": [
@@ -538,7 +519,7 @@
       "category": "Form",
       "description": "tabs container",
       "languageType": "ts",
-      "homepage": "https://unpkg.com/@dc-tech/tabs-container@0.1.2/build/index.html",
+      "homepage": "https://unpkg.com/@dc-tech/tabs-container@0.2.0/build/index.html",
       "categories": [
         "Form"
       ],
@@ -546,25 +527,22 @@
       "source": {
         "type": "npm",
         "npm": "@dc-tech/tabs-container",
-        "version": "0.1.2",
+        "version": "0.2.0",
         "registry": "https://registry.npmjs.org",
         "author": "MrManYoYo"
       },
       "dependencies": {
-        "core-js": "^3.6.5",
-        "vue": "^2.6.11",
-        "vue-class-component": "^7.2.3",
-        "vue-property-decorator": "^8.4.2",
-        "vue-router": "^3.2.0",
-        "vuex": "^3.4.0",
-        "dcfe-view-design": "^4.3.2"
+        "vue": "^2.6.10",
+        "vue-router": "^3.0.3",
+        "vuex": "^3.0.1",
+        "view-design": "^4.0.2"
       },
-      "screenshot": "https://unpkg.com/@dc-tech/tabs-container@0.1.2/screenshot.png",
+      "screenshot": "https://unpkg.com/@dc-tech/tabs-container@0.2.0/screenshot.png",
       "screenshots": [
-        "https://unpkg.com/@dc-tech/tabs-container@0.1.2/screenshot.png"
+        "https://unpkg.com/@dc-tech/tabs-container@0.2.0/screenshot.png"
       ],
       "publishTime": "2020-10-15T03:51:37.327Z",
-      "updateTime": "2020-10-26T03:20:23.352Z"
+      "updateTime": "2020-12-04T06:41:40.088Z"
     },
     {
       "name": "TabsNav",
@@ -572,7 +550,7 @@
       "category": "Form",
       "description": "tabs nav",
       "languageType": "ts",
-      "homepage": "https://unpkg.com/@dc-tech/tabs-nav@0.1.1/build/index.html",
+      "homepage": "https://unpkg.com/@dc-tech/tabs-nav@0.2.0/build/index.html",
       "categories": [
         "Form"
       ],
@@ -580,25 +558,22 @@
       "source": {
         "type": "npm",
         "npm": "@dc-tech/tabs-nav",
-        "version": "0.1.1",
+        "version": "0.2.0",
         "registry": "https://registry.npmjs.org",
         "author": "MrManYoYo"
       },
       "dependencies": {
-        "core-js": "^3.6.5",
-        "dcfe-view-design": "^4.3.3",
-        "vue": "^2.6.11",
-        "vue-class-component": "^7.2.3",
-        "vue-property-decorator": "^8.4.2",
-        "vue-router": "^3.2.0",
-        "vuex": "^3.4.0"
+        "vue": "^2.6.10",
+        "vue-router": "^3.0.3",
+        "vuex": "^3.0.1",
+        "view-design": "^4.0.2"
       },
-      "screenshot": "https://unpkg.com/@dc-tech/tabs-nav@0.1.1/screenshot.png",
+      "screenshot": "https://unpkg.com/@dc-tech/tabs-nav@0.2.0/screenshot.png",
       "screenshots": [
-        "https://unpkg.com/@dc-tech/tabs-nav@0.1.1/screenshot.png"
+        "https://unpkg.com/@dc-tech/tabs-nav@0.2.0/screenshot.png"
       ],
       "publishTime": "2020-10-15T03:43:25.436Z",
-      "updateTime": "2020-10-26T03:20:26.203Z"
+      "updateTime": "2020-12-04T06:45:29.972Z"
     },
     {
       "name": "uploadWithConfirm",
@@ -606,31 +581,28 @@
       "category": "Form",
       "description": "upload with confirm",
       "languageType": "ts",
-      "homepage": "https://unpkg.com/@dc-tech/upload-with-confirm@0.1.0/build/index.html",
+      "homepage": "https://unpkg.com/@dc-tech/upload-with-confirm@0.2.0/build/index.html",
       "categories": [
         "Form"
       ],
       "source": {
         "type": "npm",
         "npm": "@dc-tech/upload-with-confirm",
-        "version": "0.1.0",
+        "version": "0.2.0",
         "registry": "https://registry.npmjs.org"
       },
       "dependencies": {
-        "core-js": "^3.6.5",
-        "dcfe-view-design": "^4.3.3",
-        "vue": "^2.6.11",
-        "vue-class-component": "^7.2.3",
-        "vue-property-decorator": "^8.4.2",
-        "vue-router": "^3.2.0",
-        "vuex": "^3.4.0"
+        "vue": "^2.6.10",
+        "vue-router": "^3.0.3",
+        "vuex": "^3.0.1",
+        "view-design": "^4.0.2"
       },
-      "screenshot": "https://unpkg.com/@dc-tech/upload-with-confirm@0.1.0/screenshot.png",
+      "screenshot": "https://unpkg.com/@dc-tech/upload-with-confirm@0.2.0/screenshot.png",
       "screenshots": [
-        "https://unpkg.com/@dc-tech/upload-with-confirm@0.1.0/screenshot.png"
+        "https://unpkg.com/@dc-tech/upload-with-confirm@0.2.0/screenshot.png"
       ],
       "publishTime": "2020-10-26T03:00:14.463Z",
-      "updateTime": "2020-10-26T03:20:27.466Z"
+      "updateTime": "2020-12-04T06:47:33.959Z"
     }
   ],
   "components": [],
